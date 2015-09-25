@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server SD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medeirosribeiro/teste_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medeirosribeiro/teste_node/issues"
+  },
+  "homepage": "https://github.com/medeirosribeiro/teste_node",
+  "dependencies": {
+    "restify": "^4.0.3"
+  }
+}
