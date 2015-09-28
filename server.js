@@ -81,7 +81,7 @@ function ocuparVaga(req, res, next) {
 
 
 //server gateways
-server.get('/echo/:name', echo);
+server.get('/echo/:name', upCase);
 
 server.get('/toUpper/:name', upCase);
 
